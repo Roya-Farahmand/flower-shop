@@ -1,0 +1,203 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  color: #3D5656;
+}
+
+ul li .a-btn:hover {
+  background-color: #343a40;
+  color: #3D5656;
+  border-radius: 10%;
+}
+
+
+
+/* a:hover {
+  border: 1px solid #000;
+  border-radius: 10%;
+  color: #3D5656;
+} */
+.big-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section {
+  background-color: #ADCF9F;
+  color: #000;
+}
+
+/* Date Button */
+.date-Button {
+  margin: 5% 3% 5% 0;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover{
+  color: black !important;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+}
+
+.sign-button {
+  margin: 5% 3% 5% 0;
+  padding: 0;
+}
+
+/* title section */
+#title .container-fluid {
+  background-color: #CFFDE1;
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(0);
+  position: relative;
+  left: 37%;
+}
+
+/* Products Section */
+.products-box a {
+  color: #343a40;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-box, .products-box {
+  padding: 5%;
+}
+
+
+object {
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+
+#products {
+  /* background-color: #68B984; */
+  position: relative;
+}
+
+.products-title {
+  font-size: 1.5rem;
+  float: left;
+}
+
+.products-text {
+  float: left;
+  text-align: left;
+}
+
+.products-img {
+  border: 1px solid #3D5656;
+  border-radius: 10%;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.products-img:hover {
+  box-shadow: 0 0 0 2px #68B984;
+}
+
+/* Blog Section*/
+
+.blog-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.blog-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .blog-text {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+}
